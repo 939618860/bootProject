@@ -1,0 +1,34 @@
+<div class="col-md-2 aside">
+    <div class="panel-group" id="according">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a class="link-aside" href="#A" data-toggle="collapse" data-parent="#according">水果</a></h3>
+            </div>
+            <div id="A" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item" ui-sref="layout.heibulin" ng-class="{'on': isActive.isHei}" ng-click="t('hei');">黑布林</li>
+                        <li class="list-group-item" ui-sref="layout.yangmei" ng-class="{'on': isActive.isYang}" ng-click="t('yang');">杨梅</li>
+                        <li class="list-group-item" ng-class="{'on': isActive.isPing}" ng-click="t('ping');">苹果</li>
+                        <li class="list-group-item" ng-class="{'on': isActive.isXue}" ng-click="t('xue');">雪梨</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a class="link-aside" href="#B" data-toggle="collapse" data-parent="#according">车</a></h3>
+            </div>
+            <div id="B" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">大货车</li>
+                        <li class="list-group-item">摩托车</li>
+                        <li class="list-group-item">自行车</li>
+                        <li class="list-group-item">牛车</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+查看git版本
+git --version
+
+.git 文件 是 git 暂存区
+
+git init
+
+git clone 出现unable to access 解决方法如下：
+在git bash安装目录的mingw64文件夹的ssl文件夹移动到libexec文件夹 
+
+
+.gitignore文件： 忽略文件或者文件夹不要推送到github
